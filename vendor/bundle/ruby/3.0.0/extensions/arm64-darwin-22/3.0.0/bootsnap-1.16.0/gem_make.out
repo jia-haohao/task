@@ -1,5 +1,5 @@
 current directory: /Users/she/kadai/task_app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.16.0/ext/bootsnap
-/Users/she/.rbenv/versions/3.0.1/bin/ruby -I /Users/she/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20230430-45023-1p58wa.rb extconf.rb
+/Users/she/.rbenv/versions/3.0.1/bin/ruby -I /Users/she/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20230502-14149-4g5zpv.rb extconf.rb
 creating Makefile
 
 current directory: /Users/she/kadai/task_app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.16.0/ext/bootsnap
@@ -12,4 +12,4 @@ linking shared-object bootsnap/bootsnap.bundle
 
 current directory: /Users/she/kadai/task_app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.16.0/ext/bootsnap
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20230430-45023-scto8v/bootsnap
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20230502-14149-o0mi3w/bootsnap

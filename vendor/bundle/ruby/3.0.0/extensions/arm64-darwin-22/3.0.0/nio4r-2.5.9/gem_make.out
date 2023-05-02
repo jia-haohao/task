@@ -1,5 +1,5 @@
 current directory: /Users/she/kadai/task_app/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.9/ext/nio4r
-/Users/she/.rbenv/versions/3.0.1/bin/ruby -I /Users/she/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20230430-45023-y2coap.rb extconf.rb
+/Users/she/.rbenv/versions/3.0.1/bin/ruby -I /Users/she/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20230502-14149-zgstaz.rb extconf.rb
 checking for unistd.h... yes
 checking for linux/aio_abi.h... no
 checking for linux/io_uring.h... no
@@ -100,4 +100,4 @@ linking shared-object nio4r_ext.bundle
 
 current directory: /Users/she/kadai/task_app/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.9/ext/nio4r
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 nio4r_ext.bundle ./.gem.20230430-45023-qc7bh8
+/usr/bin/install -c -m 0755 nio4r_ext.bundle ./.gem.20230502-14149-o9pj88

@@ -1,5 +1,5 @@
 current directory: /Users/she/kadai/task_app/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
-/Users/she/.rbenv/versions/3.0.1/bin/ruby -I /Users/she/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20230430-45023-zjxm2m.rb extconf.rb
+/Users/she/.rbenv/versions/3.0.1/bin/ruby -I /Users/she/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20230502-14149-1yrsm2.rb extconf.rb
 creating Makefile
 
 current directory: /Users/she/kadai/task_app/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
@@ -87,4 +87,4 @@ linking shared-object sassc/libsass.bundle
 
 current directory: /Users/she/kadai/task_app/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20230430-45023-q3j4ez/sassc
+/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20230502-14149-ijkcw1/sassc
