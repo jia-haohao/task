@@ -9,6 +9,8 @@ gem 'pg', '~> 1.1'
 
 gem 'puma', '~> 5.0'
 
+gem 'bcrypt'
+
 gem 'sass-rails', '>= 6'
 
 gem 'webpacker', '~> 5.0'
@@ -29,7 +31,7 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'rspec-rails', '~> 3.8'
+  gem 'rspec-rails', '~> 4'
   gem 'factory_bot_rails'
   gem 'rexml'
 end
