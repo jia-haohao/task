@@ -5,15 +5,31 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body class = "content"> 
+    <header class = "header">
+    </header>
+
+    <% if logged_in? %>
+      <%= link_to "Profile", user_path(current_user.id) %>
+      <%= link_to "Logout", session_path(current_user.id), method: :delete %>
+      <%# <%= link_to "タスク一覧", tasks_path, class: :link %>
+    <% else %>
+      <%= link_to "Sign up", new_user_path %>
+      <%= link_to "Login", new_session_path %>
+    <% end %>  
+
      <% flash.each do |key, value| %>
         <%= content_tag(:div,value, class: "#{key}") %>
       <% end %>
+
     <%= yield %>
+
+    <footer class = "footer">
+      <p>Copyright © 2023 DIVE INC ALL RIGHTS RESERVED.</p>
+    </footer>
   </body>
 </html>
