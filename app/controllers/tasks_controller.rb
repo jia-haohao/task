@@ -2,6 +2,13 @@ class TasksController < ApplicationController
   before_action :set_task, only: [:show, :edit, :update, :destroy]
 
   def index
+    if params[:task].present?
+      @task = Task 
+        .title_like(params[:task][:title])
+        .status_where(params[:task][:status])
+        .tasks_label_where(params[:task][:label_id])
+        .paginate(params)
+    end
     @tasks = Task.all
   end
 

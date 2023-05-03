@@ -29,7 +29,7 @@
 | id       | integer  |
 | name     | string   |
 
-### タスクラベル (task_labe)
+### タスクラベル (task_label)
 
 | カラム名   | データ型  |
 | ---------- | --------- |
